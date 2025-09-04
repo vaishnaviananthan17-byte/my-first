@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #111;
+    position: fixed;
+    width: 90%;
+    top: 0;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+header .logo span {
+    color: red;
+}
+header nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+header nav a:hover {
+    color: red;
+}
+
+/* Hero Section */
+.hero {
+    padding: 150px 20px 50px;
+}
+.hero .small-text {
+    color: red;
+    font-style: italic;
+}
+.hero h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.hero h1 span {
+    color: red;
+}
+.btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top:25px;
+ 
+    cursor: pointer;
+    font-size: 25px;
+}
+.btn:hover {
+    background-color: darkred;
+}
+
+/* Countdown */
+.countdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.countdown div {
+    margin: 0 10px;
+    background: #111;
+    padding: 15px;
+    border-radius: 5px;
+}
+.countdown span {
+    font-size: 2rem;
+    display: block;
+}
+
+body {
+  background-color: #000; /* black background */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.promo {
+  min-height: 100vh;
+  background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url('https://i.ibb.co/1M1NmwH/texture-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0;
+}
+
+.promo h1 {
+  line-height: 1.2;
+}
+
+.btn-danger {
+  padding: 12px 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.btn-danger:hover {
+  background-color: #ff1a1a;
+}
+/* About Section */
+.about {
+    padding: 100px 50px;
+}
+.about img {
+    max-width: 80%;
+    border-radius: 10px;
+    margin: 20px ;
+}
+.about span {
+    color: red;
+}
+.banner {
+  background: url('https://via.placeholder.com/1200x400.png?text=Headphones+Sale') center/cover no-repeat;
+  color: white;
+}
+
+.card img {
+  object-fit: cover;
+  height: 200px;
+}
+:root{
+  --bg:#0b0b0b;
+  --text:#eaeaea;
+  --muted:#b9b9b9;
+  --accent:#e62424;
+  --card:#151515;
+  --brand:#ff3d3d;
+}
+
+
+/* Eyebrow / subtitle */
+.eyebrow{
+  font-family:"Pacifico", cursive;
+  color:#ff6b6b;
+  letter-spacing:.3px;
+  margin:2rem 0 .25rem;
+  font-size:1.25rem;
+}
+.eyebrow.light{color:#ff9b9b}
+.brand{color:var(--brand)}
+
+/* WHY CHOOSE */
+.why-choose{
+  padding:4rem 0 2rem;
+  background:var(--bg);
+}
+.hero-title{
+  font-family:"Bebas Neue", Impact, sans-serif;
+  font-size:clamp(2.8rem, 7vw, 6rem);
+  line-height:.92;
+  letter-spacing:1px;
+  margin:0 0 2rem;
+}
+
+.features{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:1.25rem;
+}
+@media (min-width: 720px){
+  .features{ grid-template-columns:1fr 1fr; }
+}
+
+.feature{
+  display:flex;
+  gap:1rem;
+  padding:1.25rem;
+  background:linear-gradient(180deg, #101010, #0d0d0d);
+  border:1px solid #1f1f1f;
+  border-radius:18px;
+  align-items:flex-start;
+}
+.feature .icon{
+  flex:0 0 46px;
+  height:46px;
+  display:grid;
+  place-items:center;
+  background:#121212;
+  border:1px solid #222;
+  border-radius:12px;
+  box-shadow:0 6px 18px rgba(0,0,0,.35) inset;
+}
+.feature .icon i{
+  font-size:20px;
+  color:#ffffff;
+}
+.feature h3{
+  margin:.15rem 0 .35rem;
+  font-weight:600;
+  letter-spacing:.4px;
+  text-transform:uppercase;
+  font-size:1rem;
+}
+.feature p{
+  margin:0;
+  color:var(--muted);
+  line-height:1.6;
+  font-size:.95rem;
+}
+
+/* TESTIMONIALS */
+.testimonials{
+  position:relative;
+  background:#0e0e0e;
+  padding:3.5rem 0 0;
+  overflow:hidden;
+}
+.section-title{
+  font-family:"Bebas Neue", Impact, sans-serif;
+  font-size:clamp(2.2rem, 6vw, 4rem);
+  letter-spacing:1px;
+  margin:.25rem 0 1.75rem;
+}
+.testi-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:1rem;
+  padding-bottom:3.5rem;
+}
+
+/* Back-to-top button */
+.to-top{
+  position:fixed;
+  right:18px;
+  bottom:18px;
+  width:44px;
+  height:44px;
+  border:none;
+  border-radius:12px;
+  background:var(--accent);
+  color:#fff;
+  font-size:18px;
+  display:grid;
+}
+.to-top.show{
+  opacity:1;
+  visibility:visible;
+  transform:translateY(0);
+}
+.to-top:focus{outline:2px solid #fff3}
+*{box-sizing:border-box}
+
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:"Poppins",system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+
+.container{
+  width:min(1120px, 92%);
+  margin-inline:auto;
+}
