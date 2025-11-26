@@ -24,3 +24,6 @@ Screenshot
   about:<img width="1920" height="1020" alt="Screenshot 2025-08-26 130054" src="https://github.com/user-attachments/assets/7fcb68ac-9a5f-47da-80ac-ebb5782ba21c" />
   shop:<img width="1838" height="965" alt="Screenshot 2025-09-06 124524" src="https://github.com/user-attachments/assets/d2e9c121-518e-4bdb-a027-59a78355953e" />
   contact:<img width="1871" height="924" alt="Screenshot 2025-09-06 125625" src="https://github.com/user-attachments/assets/28bab885-263e-4317-b75a-5f6469152426" />
+  
+  Author
+  Vaishnavi.A
