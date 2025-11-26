@@ -1,5 +1,6 @@
 Online shopping headphones readme
 A clean, production-ready template for an online headphones store. Built with Node.js, Express, MongoDB, and a modern frontend (React optional), featuring user auth, product catalog, cart, checkout, and admin management.
+
 Features
 - Product catalog: List, filter, search, sort headphones by brand, price, rating.
 - Auth & roles: Register/login with JWT; roles: user and admin; protected routes.
@@ -9,6 +10,7 @@ Features
 - Image handling: Local uploads or third-party storage (configurable).
 - Payment-ready: Stripe or Razorpay integration toggle (mock by default).
 - Logging & validation: Centralized error handling, request validation, and structured logs.
+- 
 Tech stack
 - Backend: Node.js, Express, MongoDB (Mongoose)
 - Auth: JWT, bcrypt
@@ -16,6 +18,7 @@ Tech stack
 - Testing: Jest, Supertest
 - Tooling: ESLint, Prettier, dotenv, nodemon
 - Deploy: Render/Vercel/Netlify + MongoDB Atlas
+- 
 Screenshot
   home page:<img width="960" height="1020" alt="Screenshot 2025-08-19 105441" src="https://github.com/user-attachments/assets/fff9b255-c5fc-4e40-b50a-5f1b9c14eb15" />
   about:<img width="1920" height="1020" alt="Screenshot 2025-08-26 130054" src="https://github.com/user-attachments/assets/7fcb68ac-9a5f-47da-80ac-ebb5782ba21c" />
